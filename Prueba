@@ -16,9 +16,7 @@ local Client, Mouse, Camera, CF, RNew, Vec3, Vec2 = Players.LocalPlayer, Players
 local Aimlock, MousePressed, CanNotify = true, false, false;
 local AimlockTarget;
 getgenv().FuckHoodUniversalAimbotLoaded = true
-        }) 
-    end
-end
+
 getgenv().ThirdPerson = true -- Locking onto someone in your Third Person POV
 getgenv().FirstPerson = true 
 getgenv().WorldToViewportPoint = function(P)
